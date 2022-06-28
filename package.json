@@ -4,8 +4,10 @@
   "description": "book-inventory-app",
   "main": "source/server.ts",
   "scripts": {
-      "start": "node build/index.js",
-      "postinstall": "tsc"
+    "start": "node build/server.js",
+    "postinstall": "tsc",
+    "dev": "nodemon source/server.ts",
+    "build": "rm -rf build/ && prettier --write source/ && tsc"
   },
   "author": "",
   "dependencies": {
@@ -19,5 +21,10 @@
     "ts-node": "^10.8.1",
     "typescript": "^4.7.4"
   },
-  "engines": { "node": "16.15.1" }
+  "engines": {
+    "node": "16.15.1"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
 }
