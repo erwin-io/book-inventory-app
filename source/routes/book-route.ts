@@ -1,6 +1,6 @@
 /** source/routes/posts.ts */
 import express from 'express';
-import controller from '../controllers/post';
+import controller from '../controllers/book';
 const router = express.Router();
 
 router.get('/book', controller.getPosts);
