@@ -8,9 +8,7 @@
       "postinstall": "tsc",
       "watch-node": "nodemon dist/index.js",
       "watch-ts": "tsc -w",
-      "deploy": "git add . && git commit -m Heroku && git push heroku master",
-      //"dev": "nodemon source/server.ts",
-      //"build": "rm -rf build/ && prettier --write source/ && tsc"
+      "deploy": "git add . && git commit -m Heroku && git push heroku master"
   },
   "repository": {
     "type": "git",
