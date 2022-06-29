@@ -7,7 +7,7 @@
       "start": "node build/server.js",
       "postinstall": "tsc",
       "dev": "nodemon source/server.ts",
-      "build": "rm -rf build/ && prettier --write source/ && tsc"
+      "//build": "rm -rf build/ && prettier --write source/ && tsc"
   
   },
   "author": "",
