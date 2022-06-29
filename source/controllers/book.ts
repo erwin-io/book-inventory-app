@@ -53,7 +53,7 @@ const deletePost = async (req: Request, res: Response, next: NextFunction) => {
   // delete the post
   // return response
   return res.status(200).json({
-    message: "{" + id + "} deleted successfully ????????????????",
+    message: "{" + id + "} deleted successfullyyyyyyyyyyyyyyyy"
   });
 };
 
