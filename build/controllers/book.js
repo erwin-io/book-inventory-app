@@ -53,7 +53,7 @@ const deletePost = (req, res, next) => __awaiter(void 0, void 0, void 0, functio
     // delete the post
     // return response
     return res.status(200).json({
-        message: "your {" + id + "} deleted successfully",
+        message: "your {" + id + "} deleted successfully !!!!!",
     });
 });
 // adding a post
